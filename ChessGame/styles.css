@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+    --cell-bg-light: #cebfa1;
+    --cell-bg-dark: #a9937b;
+    --board-bg-light: #47454f;
+    --board-bg-dark: #3a3842;
+    --cell-size: 4rem; 
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--board-bg-dark);
+}
+
+.title,
+.info {
+    margin: 0 auto;
+    color: var(--cell-bg-light);
+    text-align: center;
+    position: relative;
+    font-family: "Pacifico", cursive;
+    padding: 0.8rem;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    padding: 1.5em;
+    background-color: var(--board-bg-light);
+}
+
+.chessboard {
+    display: grid;
+    background-color: var(--cell-bg-light);
+    grid-template-columns: repeat(8, var(--cell-size));
+    grid-template-rows: repeat(8, var(--cell-size));
+}
+
+.cell {
+    user-select: none;
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem; 
+    background-color: var(--cell-bg-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: ridge;
+    opacity: 1;
+}
+
+.dragging {
+    border-style: groove;
+    opacity: 0.4;
+}
+
+.btn-group {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    margin: 0px 10px;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}

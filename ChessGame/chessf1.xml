@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Mar 15, 2021 at 02:12 PM
+- Server version: 10.4.17-MariaDB
+- PHP Version: 8.0.2
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="chessf" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="chessf1">
+                CREATE TABLE `chessf1` (
+                  `ID` int(11) NOT NULL AUTO_INCREMENT,
+                  `id1` varchar(20) NOT NULL,
+                  `id2` varchar(20) NOT NULL,
+                  `id3` varchar(20) NOT NULL,
+                  `id4` varchar(20) NOT NULL,
+                  `id5` varchar(20) NOT NULL,
+                  `id6` varchar(20) NOT NULL,
+                  `id7` varchar(20) NOT NULL,
+                  `id8` varchar(20) NOT NULL,
+                  PRIMARY KEY (`ID`),
+                  KEY `ID` (`ID`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'chessf'
+    -->
+    <database name="chessf">
+        <!-- Table chessf1 -->
+        <table name="chessf1">
+            <column name="ID">1</column>
+            <column name="id1">[&quot;rnbqkbnr&quot;</column>
+            <column name="id2">&quot;pppppppp&quot;</column>
+            <column name="id3">&quot;________&quot;</column>
+            <column name="id4">&quot;________&quot;</column>
+            <column name="id5">&quot;________&quot;</column>
+            <column name="id6">&quot;________&quot;</column>
+            <column name="id7">&quot;PPPPPPPP&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">2</column>
+            <column name="id1">[&quot;rnbqkbnr&quot;</column>
+            <column name="id2">&quot;pppppppp&quot;</column>
+            <column name="id3">&quot;________&quot;</column>
+            <column name="id4">&quot;________&quot;</column>
+            <column name="id5">&quot;____P___&quot;</column>
+            <column name="id6">&quot;________&quot;</column>
+            <column name="id7">&quot;PPPP_PPP&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">3</column>
+            <column name="id1">[&quot;rnbqkbnr&quot;</column>
+            <column name="id2">&quot;ppp_pppp&quot;</column>
+            <column name="id3">&quot;________&quot;</column>
+            <column name="id4">&quot;___p____&quot;</column>
+            <column name="id5">&quot;____P___&quot;</column>
+            <column name="id6">&quot;________&quot;</column>
+            <column name="id7">&quot;PPPP_PPP&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">4</column>
+            <column name="id1">[&quot;rnbqkbnr&quot;</column>
+            <column name="id2">&quot;ppp_pppp&quot;</column>
+            <column name="id3">&quot;________&quot;</column>
+            <column name="id4">&quot;___p____&quot;</column>
+            <column name="id5">&quot;____P___&quot;</column>
+            <column name="id6">&quot;_____P__&quot;</column>
+            <column name="id7">&quot;PPPP__PP&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">5</column>
+            <column name="id1">[&quot;rnbqkbnr&quot;</column>
+            <column name="id2">&quot;ppp_p_pp&quot;</column>
+            <column name="id3">&quot;________&quot;</column>
+            <column name="id4">&quot;___p_p__&quot;</column>
+            <column name="id5">&quot;____P___&quot;</column>
+            <column name="id6">&quot;_____P__&quot;</column>
+            <column name="id7">&quot;PPPP__PP&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">6</column>
+            <column name="id1">[&quot;rnbqkbnr&quot;</column>
+            <column name="id2">&quot;ppp_p_pp&quot;</column>
+            <column name="id3">&quot;________&quot;</column>
+            <column name="id4">&quot;___p_P__&quot;</column>
+            <column name="id5">&quot;________&quot;</column>
+            <column name="id6">&quot;_____P__&quot;</column>
+            <column name="id7">&quot;PPPP__PP&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">7</column>
+            <column name="id1">[&quot;rnbqkb_r&quot;</column>
+            <column name="id2">&quot;ppp_p_pp&quot;</column>
+            <column name="id3">&quot;_____n__&quot;</column>
+            <column name="id4">&quot;___p_P__&quot;</column>
+            <column name="id5">&quot;________&quot;</column>
+            <column name="id6">&quot;_____P__&quot;</column>
+            <column name="id7">&quot;PPPP__PP&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">8</column>
+            <column name="id1">[&quot;rnbqkb_r&quot;</column>
+            <column name="id2">&quot;ppp_p_pp&quot;</column>
+            <column name="id3">&quot;_____n__&quot;</column>
+            <column name="id4">&quot;___p_P__&quot;</column>
+            <column name="id5">&quot;______P_&quot;</column>
+            <column name="id6">&quot;_____P__&quot;</column>
+            <column name="id7">&quot;PPPP___P&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">9</column>
+            <column name="id1">[&quot;rnbqkb_r&quot;</column>
+            <column name="id2">&quot;ppp_p_pp&quot;</column>
+            <column name="id3">&quot;________&quot;</column>
+            <column name="id4">&quot;___p_P__&quot;</column>
+            <column name="id5">&quot;______n_&quot;</column>
+            <column name="id6">&quot;_____P__&quot;</column>
+            <column name="id7">&quot;PPPP___P&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">10</column>
+            <column name="id1">[&quot;rnbqkb_r&quot;</column>
+            <column name="id2">&quot;ppp_p_pp&quot;</column>
+            <column name="id3">&quot;________&quot;</column>
+            <column name="id4">&quot;___p_P__&quot;</column>
+            <column name="id5">&quot;______P_&quot;</column>
+            <column name="id6">&quot;________&quot;</column>
+            <column name="id7">&quot;PPPP___P&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">11</column>
+            <column name="id1">[&quot;rnb_kb_r&quot;</column>
+            <column name="id2">&quot;ppp_p_pp&quot;</column>
+            <column name="id3">&quot;___q____&quot;</column>
+            <column name="id4">&quot;___p_P__&quot;</column>
+            <column name="id5">&quot;______P_&quot;</column>
+            <column name="id6">&quot;________&quot;</column>
+            <column name="id7">&quot;PPPP___P&quot;</column>
+            <column name="id8">&quot;RNBQKBNR&quot;]</column>
+        </table>
+        <table name="chessf1">
+            <column name="ID">12</column>
+            <column name="id1">[&quot;rnb_kb_r&quot;</column>
+            <column name="id2">&quot;ppp_p_pp&quot;</column>
+            <column name="id3">&quot;___q____&quot;</column>
+            <column name="id4">&quot;___p_P__&quot;</column>
+            <column name="id5">&quot;______P_&quot;</column>
+            <column name="id6">&quot;_____N__&quot;</column>
+            <column name="id7">&quot;PPPP___P&quot;</column>
+            <column name="id8">&quot;RNBQKB_R&quot;]</column>
+        </table>
+    </database>
+</pma_xml_export>
